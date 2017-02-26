@@ -1,3 +1,3 @@
 node default {
-  include roles::puppet4
+  include roles::kenny
 }
