@@ -3,7 +3,6 @@
 
 forge 'https://forgeapi.puppetlabs.com'
 
-
 #mod 'puppetlabs/apache',
 #  :git => 'git://github.com/puppetlabs/puppetlabs-apache',
 #  :tag => '1.10.0'
@@ -11,6 +10,10 @@ forge 'https://forgeapi.puppetlabs.com'
 mod 'boxen/brewcask',
     :git => 'git://github.com/boxen/puppet-brewcask.git',
     :tag => '0.0.9'
+
+mod 'ripienaar/classifier',
+    :git => '/git:github.com/ripienaar/puppet-classifier.git',
+    :tag => '0.0.11'
 
 mod 'puppetlabs/concat',
   :git => 'git://github.com/puppetlabs/puppetlabs-concat',
