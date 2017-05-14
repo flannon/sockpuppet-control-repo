@@ -12,7 +12,7 @@ mod 'boxen/brewcask',
     :tag => '0.0.9'
 
 mod 'ripienaar/classifier',
-    :git => '/git:github.com/ripienaar/puppet-classifier.git',
+    :git => 'git://github.com/ripienaar/puppet-classifier.git',
     :tag => '0.0.11'
 
 mod 'puppetlabs/concat',
