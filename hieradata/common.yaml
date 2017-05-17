@@ -16,3 +16,4 @@ classifier::rules:
         mac_pro: true
       classes:
         - stdlib
+        - roles::kenny
