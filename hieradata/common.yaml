@@ -15,4 +15,4 @@ classifier::rules:
       data:
         mac_pro: true
       classes:
-        - homebrew
+        - stdlib
