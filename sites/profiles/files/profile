@@ -1,0 +1,39 @@
+# set promt the user @ directory
+#typeset +x PS1="\u@\h:\w\\$ "
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+#source /opt/boxen/env.sh
+PS1="$ "
+
+#PATH="/usr/local/bin:/usr/local/sbin:/usr/local/share/python"
+alias lo="exit"
+alias ls="ls -F"
+alias rm="rm -i"
+alias ssh="ssh -o VisualHostKey=yes"
+alias vbox="/usr/bin/vboxmanage"
+
+set -o vi
+
+##
+# DELUXE-USR-LOCAL-BIN-INSERT
+# (do not remove this comment)
+##
+echo $PATH | grep -q -s "/usr/local/bin"
+if [ $? -eq 1 ] ; then
+    PATH=$PATH:/usr/local/bin
+    export PATH
+fi
+
+#eval "$(pyenv init -)"
+
+
+#echo $PATH | grep -q -s "/opt/boxen/repo/bin"
+#if [ $? -eq 1 ] ; then
+#    PATH=$PATH:/opt/boxen/repo/bin
+#    export PATH
+#fi
+
+# Get local data from .bashrc
+if [ -f ~/.bashrc ]; then
+   . ~/.bashrc
+fi
+
