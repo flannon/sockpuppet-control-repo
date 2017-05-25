@@ -5,6 +5,8 @@
   - clientcert/%{clientcert}
   - puppet_role/%{puppet_role}
   - global
+  - common
+  - classes
 
 :yaml:
   :datadir: /etc/puppet/environments/%{environment}/hiera
