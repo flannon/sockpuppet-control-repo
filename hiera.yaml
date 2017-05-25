@@ -1,11 +1,13 @@
 ---
 :backends:
   - yaml
-:hierarchy:
-  - common
-  - clientcert/%{clientcert}
-  - puppet_role/%{puppet_role}
-  - global
 
 :yaml:
-  :datadir: /etc/puppetlabs/environments/%{environment}/hieradata
+  :datadir: /etc/puppetlabs/code/environments/%{environment}/hieradata
+
+:hierarchy:
+  - common
+#  - clientcert/%{clientcert}
+#  - puppet_role/%{puppet_role}
+#  - global
+
