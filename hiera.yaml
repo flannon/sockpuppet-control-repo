@@ -9,4 +9,4 @@
   - classes
 
 :yaml:
-  :datadir: /etc/puppet/environments/%{environment}/hiera
+  :datadir: /etc/puppetlabs/environments/%{environment}/hieradata
