@@ -1,4 +1,5 @@
 node default {
   #include classifier
-  hiera_include('classes')
+  #hiera_include('classes')
+  lookup('classes')
 }
