@@ -1,0 +1,2 @@
+sudo puppet apply /etc/puppetlabs/code/environments/combined/manifests/classifier.pp  --environment=development --hiera_config=/etc/puppetlabs/puppet/hiera.yaml --modulepath=/etc/puppetlabs/code/environments/combined/modules/
+
